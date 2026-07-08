@@ -4,8 +4,8 @@
   "channel": "dev",
   "baseUrl": "https://github.com/dudumonetiza/snipercode-releases/releases/download",
   "latest": {
-    "version": "0.1.19",
-    "releasedAt": "2026-07-08T22:27:02Z",
+    "version": "0.1.20",
+    "releasedAt": "2026-07-08T22:34:36Z",
     "minimumControlApi": "0.1.0",
     "notes": [
       "Instalador Windows em um unico .exe.",
@@ -28,17 +28,17 @@
         "platform": "windows",
         "arch": "x64",
         "kind": "installer",
-        "url": "https://github.com/dudumonetiza/snipercode-releases/releases/download/v0.1.19/SniperCodeSetup-0.1.19-windows-x64.exe",
-        "sha256": "015b30ca50727077915719ec56e6e7caa9989f9b96938fd65cda96ddeef64a34",
-        "size": 113327104
+        "url": "https://github.com/dudumonetiza/snipercode-releases/releases/download/v0.1.20/SniperCodeSetup-0.1.20-windows-x64.exe",
+        "sha256": "a4a46a130a54c945fecccad41b5433438f2594c281708b567e891f6e0a90e3a9",
+        "size": 113327616
       },
       {
         "platform": "windows",
         "arch": "x64",
         "kind": "zip",
-        "url": "https://github.com/dudumonetiza/snipercode-releases/releases/download/v0.1.19/SniperCode-0.1.19-windows-x64.zip",
-        "sha256": "87b8ba84f727a3600dd392e153a925ce88a0d95a8a8ef00e1320198bd1346e8a",
-        "size": 109720775
+        "url": "https://github.com/dudumonetiza/snipercode-releases/releases/download/v0.1.20/SniperCode-0.1.20-windows-x64.zip",
+        "sha256": "683eb288f420ac4df0e0cf1026d484c554397341c8ad464c9557484755ae42d9",
+        "size": 109721300
       }
     ]
   },
@@ -264,6 +264,26 @@
     {
       "version": "0.1.19",
       "releasedAt": "2026-07-08T22:27:02Z",
+      "notes": [
+        "Instalador Windows em um unico .exe.",
+        "Instala em %LOCALAPPDATA%\\SniperCode\\app.",
+        "Cria desinstalador e atalhos no Desktop/Menu Iniciar.",
+        "Remove botao de atualizacao do app e exibe changelog consultivo.",
+        "Adiciona logo SniperCode na splash e no topo do sistema.",
+        "Adiciona icone desktop com sniper android no launcher, instalador, atalhos e favicon.",
+        "Ativa atualizacao automatica no desktop via SniperControl, com download, SHA256 e setup silencioso sem apagar dados do usuario.",
+        "Troca o launcher Windows para janela nativa WebView2 com icone proprio do SniperCode.",
+        "Corrige update silencioso para reinstalar por processo independente e limpar o instalador temporario apos atualizar.",
+        "Substitui seletor de template por galeria com thumbnails e adiciona templates iniciais de blog e loja virtual.",
+        "Build dev pode apontar para SniperControl remoto via Tunnelmole para testes externos.",
+        "Publica instaladores pesados no GitHub Releases e mantem o SniperControl apenas como controle de acesso/manifest.",
+        "Adiciona checagem manual de atualizacoes no painel do SniperCode.",
+        "Adiciona configuracoes com chaves OpenRouter salvas e reutilizaveis nos geradores."
+      ]
+    },
+    {
+      "version": "0.1.20",
+      "releasedAt": "2026-07-08T22:34:36Z",
       "notes": [
         "Instalador Windows em um unico .exe.",
         "Instala em %LOCALAPPDATA%\\SniperCode\\app.",
