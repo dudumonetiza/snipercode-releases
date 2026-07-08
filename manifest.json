@@ -4,8 +4,8 @@
   "channel": "dev",
   "baseUrl": "https://github.com/dudumonetiza/snipercode-releases/releases/download",
   "latest": {
-    "version": "0.1.18",
-    "releasedAt": "2026-07-08T22:04:24Z",
+    "version": "0.1.19",
+    "releasedAt": "2026-07-08T22:27:02Z",
     "minimumControlApi": "0.1.0",
     "notes": [
       "Instalador Windows em um unico .exe.",
@@ -19,24 +19,26 @@
       "Corrige update silencioso para reinstalar por processo independente e limpar o instalador temporario apos atualizar.",
       "Substitui seletor de template por galeria com thumbnails e adiciona templates iniciais de blog e loja virtual.",
       "Build dev pode apontar para SniperControl remoto via Tunnelmole para testes externos.",
-      "Publica instaladores pesados no GitHub Releases e mantem o SniperControl apenas como controle de acesso/manifest."
+      "Publica instaladores pesados no GitHub Releases e mantem o SniperControl apenas como controle de acesso/manifest.",
+      "Adiciona checagem manual de atualizacoes no painel do SniperCode.",
+      "Adiciona configuracoes com chaves OpenRouter salvas e reutilizaveis nos geradores."
     ],
     "artifacts": [
       {
         "platform": "windows",
         "arch": "x64",
         "kind": "installer",
-        "url": "https://github.com/dudumonetiza/snipercode-releases/releases/download/v0.1.18/SniperCodeSetup-0.1.18-windows-x64.exe",
-        "sha256": "52e93e1f0bac87139758d0919c54495a1bbabada3fed3382fa28888702d9e00b",
-        "size": 113324032
+        "url": "https://github.com/dudumonetiza/snipercode-releases/releases/download/v0.1.19/SniperCodeSetup-0.1.19-windows-x64.exe",
+        "sha256": "015b30ca50727077915719ec56e6e7caa9989f9b96938fd65cda96ddeef64a34",
+        "size": 113327104
       },
       {
         "platform": "windows",
         "arch": "x64",
         "kind": "zip",
-        "url": "https://github.com/dudumonetiza/snipercode-releases/releases/download/v0.1.18/SniperCode-0.1.18-windows-x64.zip",
-        "sha256": "ddf179cabd0d721798b14ac137206c39488b7681ee9b1d8e3f23c2246aa8224e",
-        "size": 109717843
+        "url": "https://github.com/dudumonetiza/snipercode-releases/releases/download/v0.1.19/SniperCode-0.1.19-windows-x64.zip",
+        "sha256": "87b8ba84f727a3600dd392e153a925ce88a0d95a8a8ef00e1320198bd1346e8a",
+        "size": 109720775
       }
     ]
   },
@@ -257,6 +259,26 @@
         "Substitui seletor de template por galeria com thumbnails e adiciona templates iniciais de blog e loja virtual.",
         "Build dev pode apontar para SniperControl remoto via Tunnelmole para testes externos.",
         "Publica instaladores pesados no GitHub Releases e mantem o SniperControl apenas como controle de acesso/manifest."
+      ]
+    },
+    {
+      "version": "0.1.19",
+      "releasedAt": "2026-07-08T22:27:02Z",
+      "notes": [
+        "Instalador Windows em um unico .exe.",
+        "Instala em %LOCALAPPDATA%\\SniperCode\\app.",
+        "Cria desinstalador e atalhos no Desktop/Menu Iniciar.",
+        "Remove botao de atualizacao do app e exibe changelog consultivo.",
+        "Adiciona logo SniperCode na splash e no topo do sistema.",
+        "Adiciona icone desktop com sniper android no launcher, instalador, atalhos e favicon.",
+        "Ativa atualizacao automatica no desktop via SniperControl, com download, SHA256 e setup silencioso sem apagar dados do usuario.",
+        "Troca o launcher Windows para janela nativa WebView2 com icone proprio do SniperCode.",
+        "Corrige update silencioso para reinstalar por processo independente e limpar o instalador temporario apos atualizar.",
+        "Substitui seletor de template por galeria com thumbnails e adiciona templates iniciais de blog e loja virtual.",
+        "Build dev pode apontar para SniperControl remoto via Tunnelmole para testes externos.",
+        "Publica instaladores pesados no GitHub Releases e mantem o SniperControl apenas como controle de acesso/manifest.",
+        "Adiciona checagem manual de atualizacoes no painel do SniperCode.",
+        "Adiciona configuracoes com chaves OpenRouter salvas e reutilizaveis nos geradores."
       ]
     }
   ]
